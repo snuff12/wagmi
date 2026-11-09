@@ -1,0 +1,14 @@
+{
+  "name": "wagmi-walletconnect-init-recovery-repro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "repro": "node repro.mjs" },
+  "engines": { "node": ">=22" },
+  "dependencies": {
+    "@wagmi/core": "3.6.9",
+    "@wagmi/connectors": "8.2.4",
+    "@walletconnect/ethereum-provider": "2.26.0",
+    "viem": "2.57.17"
+  }
+}
